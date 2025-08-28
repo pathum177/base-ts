@@ -21,7 +21,7 @@ const { sms, downloadMediaMessage } = require('./lib/msg');
 const { cmd } = require('./command');
 
 const prefix = '.';
-const ownerNumber = ['94704638406']; // ඔයාගේ no එක දාන්න 🙄
+const ownerNumber = ['94773416478']; // ඔයාගේ no එක දාන්න 🙄
 
 async function connectToWhatsApp() {
     
@@ -45,7 +45,7 @@ async function connectToWhatsApp() {
 
     async function downloadSessionFromMegaAndRestart() {
         if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
-        const sessdata = config.SESSION_ID.replace("UDMODZ-MD=", "");
+        const sessdata = config.SESSION_ID.replace("𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=", "");
         const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
         filer.download((err, data) => {
             if (err) throw err;
