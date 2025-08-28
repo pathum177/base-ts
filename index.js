@@ -90,7 +90,7 @@ async function connectToWhatsApp() {
            conn.newsletterFollow("120363183696686259@newsletter") // මේකට ඔයාගේ channel jid එක දාන්න
            console.log(" CHANNEL FOLLOW ✅")
            let up = `Queen UDMODz connected successful ✅\n\nPREFIX: ${prefix}`; // වෙනස් කරන්නහ්
-           conn.sendMessage("94704638406@s.whatsapp.net", { image: { url: `https://i.ibb.co/5xzWmSxn/20250224-094453.png` }, caption: up }) // වෙනස් කරන්නහ්
+           conn.sendMessage("94773416478@s.whatsapp.net", { image: { url: `https://i.ibb.co/5xzWmSxn/20250224-094453.png` }, caption: up }) // වෙනස් කරන්නහ්
             console.log('💙 I`m online now hutto... ');
             fs.readdirSync("./plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
